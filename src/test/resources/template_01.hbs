@@ -1,0 +1,56 @@
+{
+    "cards": [
+        {
+            "header": {
+                "title": "Incident Bot Notifier !",
+                "subtitle": "{{ incident.scoping_project_id }}"
+                
+            },
+            "sections": [
+                {
+                    "widgets": [
+                        {
+                            "textParagraph": {
+                                "text": "<br><b><font color=#FF0000>Summary:</font></b> {{ incident.summary }}, <br><b><font>"
+                            }
+                        },
+                         {
+                            "keyValue": {
+                                "topLabel": "Resource Name",
+                                "content": "{{ incident.resource_display_name }}"
+                            }
+                        },
+                        {
+                            "keyValue": {
+                                "topLabel": "Resource Type",
+                                "content": "{{ incident.resource_type_display_name }}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "widgets": [
+                        {
+                            "buttons": [
+                                {
+                                    "textButton": {
+                                        "text": "OPEN INCIDENT",
+                                        "onClick": {
+                                            "openLink": {
+                                                "url": "{{ incident.url }}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+                        
+                  
+               
+                   
+            ]
+        }
+    ]
+}
