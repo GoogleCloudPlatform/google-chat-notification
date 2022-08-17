@@ -1,5 +1,3 @@
-This is not an officially supported Google product. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose.
-
 # Google-chat-notification
 
 This project provide tools that helps to send message to Google Chat from any pub/sub message. The tools support templating messages base on [Handlebars](https://github.com/jknack/handlebars.java)
@@ -87,6 +85,7 @@ This documentation use the default service account provided by Cloud Function. Y
 * Read access to the HBS GCS bucket (access to the template)
 * Pub/Sub can send notification to your Cloud Function endpoint
 
+## Disclaimer 
 
-
+This is not an officially supported Google product. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose.
 
