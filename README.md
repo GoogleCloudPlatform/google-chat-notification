@@ -2,7 +2,7 @@ This is not an officially supported Google product. It is not supported by Googl
 
 # Google-chat-notification
 
-This project provide tools that helps to send message to Google Chat from any pub/sub message. The tools support templating messages base on [Handlebar](https://github.com/jknack/handlebars.java)
+This project provide tools that helps to send message to Google Chat from any pub/sub message. The tools support templating messages base on [Handlebars](https://github.com/jknack/handlebars.java)
 
 ## Create a Google chat webhook
 
